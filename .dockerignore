@@ -1,0 +1,11 @@
+# .dockerignore
+__pycache__/
+*.pyc
+venv/
+.env
+.git/
+.DS_Store
+data/             # local data dir
+build/
+dist/
+pip-wheel-metadata/

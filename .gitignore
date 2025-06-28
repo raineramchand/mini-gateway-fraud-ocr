@@ -1,0 +1,30 @@
+# Editor/history
+.history/
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Virtual env
+env/
+venv/
+
+# Data / images / OCR results
+data/
+images/
+ocr_results.json
+test.json
+
+# Wheels & build artifacts
+wheels/
+build/
+dist/
+pip-wheel-metadata/
+
+# Model files (if >100 MB use Git LFS, otherwise you can track)
+# model.pkl         # uncomment if you plan to use LFS
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/

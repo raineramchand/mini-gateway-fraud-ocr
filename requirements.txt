@@ -1,0 +1,14 @@
+# Web/API
+fastapi
+uvicorn[standard]
+pydantic
+
+# Data & ML
+numpy
+scikit-learn
+joblib
+torch           # pulls CPU-only wheel via the PyTorch CPU index
+opencv-python-headless
+pillow
+scipy
+easyocr
